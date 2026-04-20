@@ -333,6 +333,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .security-grid { grid-template-columns: repeat(3, 1fr); }
   .industries-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .contact-grid { grid-template-columns: 1fr; gap: var(--space-2xl); }
 }
 @media (max-width: 768px) {
   .section { padding-block: var(--space-3xl); }
@@ -348,6 +349,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero { min-height: 80vh; }
   .hero-logo { width: 80px; }
   .core-grid { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
+  .contact-form { padding: var(--space-xl); }
   .install-grid { grid-template-columns: repeat(2, 1fr); }
   .security-grid { grid-template-columns: repeat(2, 1fr); }
   .industries-grid { grid-template-columns: 1fr; gap: var(--space-md); }
